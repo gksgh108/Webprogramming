@@ -1,0 +1,509 @@
+@charset "utf-8";
+.page_header {
+	height: 53px;
+	width: 2540px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	position: sticky;
+	top: 0;
+	opacity: 0.7;
+}
+.user_menu {
+	float: left;
+	height: 53px;
+	width: auto;
+	margin-left: 450px;
+	font-size: 15px;
+	color: #E6E6E6;
+	text-align: center;
+	line-height: 45px;
+}
+.user_menu a:hover {
+	color: #C8C8C8;
+}
+.page_menu {
+	float: left;
+	height: 53px;
+	width: auto;
+	margin-left: 960px;
+	text-align: center;
+	line-height: 45px;
+	color: #000;
+}
+.page_menu a:hover {
+	color: #C8C8C8;
+}
+.logo_header {
+	height: 190px;
+	width: 2540px;
+}
+.logo {
+	height: auto;
+	width: auto;
+	margin-top: 95px;
+	margin-left: 1145px;
+}
+#sns {
+	height: 40px;
+	width: auto;
+	margin-top: 35px;
+	margin-left: 470px;
+}
+
+.menu_header {
+	height: 70px;
+	width: 2540px;
+	position: sticky;
+	top: 54px;
+	opacity: 0.7;
+	backdrop-filter: blur(30px);
+	color: black;
+}
+.main {
+	height: auto;
+	width: 2540px;
+}
+.main h3 {
+	margin-left: 480px;
+}
+.company_menu {
+	height: 63px;
+	width: 2540px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F0F0F0;
+	border-bottom-color: #F0F0F0;
+	border-bottom-style: solid;
+}
+.company {
+	float: left;
+	height: auto;
+	width: auto;
+	margin-left: 472px;
+	font-size: 15px;
+	color: #E6E6E6;
+	line-height: 60px;
+	
+}
+.company a:hover {
+	color: #C8C8C8;
+}
+.sns {
+	float: left;
+	height: 63px;
+	width: auto;
+	margin-left: 963px;
+	margin-top: 12px;
+}
+.info {
+	height: 300px;
+	width: 2540px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F0F0F0;
+	border-bottom-color: #F0F0F0;
+	border-bottom-style: solid;
+}
+.info2 {
+	height: 235px;
+	width: 2540px;
+	background-color: #FAFAFA;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F0F0F0;	
+}
+.company_info {
+	float: left;
+	height: 235px;
+	width: 720px;
+	margin-left: 465px;
+	font-size: 15px;
+	color: #000;
+	text-align: left;
+}
+
+.purchase_info {
+	float: left;
+	height: 235px;
+	width: 400px;
+	margin-left: 350px;
+}
+.footer_ban2 {
+	float: left;
+	height: 300px;
+	width: 450px;
+	margin-top: 0px;
+	margin-left: 465px;
+	font-size: 15px;
+	color: #999999;
+}
+.footer_ban p a {
+	color: #999;
+}
+.footer_ban p a:hover {
+	color: #000;
+}
+
+
+.footer_ban {
+	float: left;
+	height: 300px;
+	width: 310px;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-size: 15px;
+	color: #999;
+}
+.footer_ban h2 {
+	color: #000;
+}
+
+#footer_bottom {
+	float: left;
+	height: 40px;
+	width: 1300px;
+	margin-top: 20px;
+	background-color: #555555;
+	color: #FFF;
+	font-family: "맑은 고딕";
+	font-size: 14px;
+}
+
+	
+/* ul li태그에 리스트 스타일을 없앰 */
+	ul li{
+		list-style: none;
+	}
+/* a태그에 텍스트 밑줄을 없애고 색상을 #333 */
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/* 글자크기를 16px 맑은 고딕 굵게하고 width넓이 700, 높이 50만큼 배경색은 #ccc, 글자색은 검정색, 라인높이50px
+menu박스 가운데정렬, 글자가운데 정렬 */
+	#menu {
+	font: bold 16px "malgun gothic";
+	width: 1050px;
+	height: 20px;
+	background: #F0F0F0;
+	color: black;
+	line-height: 45px;
+	text-align: center;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+
+/* menu태그 자식의 ul의 자식 li를 왼쪽정렬과 넓이 140설정 */
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+		z-index:99999;
+	}
+	
+	#menu > ul > li > ul {
+	width: 110px;
+	display: none;
+	position: absolute;
+	font-size: 14px;
+	background: white;
+	text-align: center;
+	float: left;
+	z-index:99999;
+	}
+	
+	#menu > ul > li > ul > li {
+	text-align:left;
+	z-index:99999;
+	
+		}
+	
+	#menu > ul > li > ul > li:hover {
+	transition: ease 1s;
+	background-color: #C8C8C8;
+		}
+		
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	
+h2 {
+	color: #000;
+}
+h1 {
+	color: #000;
+}
+.empty {
+	background-color: #F0F0F0;
+	height: 450px;
+	width: 2540px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	margin-top:200px;
+	clear: both;
+}
+
+/*여기서부터는 detail 특정 CSS*/
+
+.purchase_form{
+	width: auto;
+	height: 200px;
+}
+.product_path {
+	float: right;
+	height: 40px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right:450px;
+}
+.product_picture {
+	float: left;
+	height: 500px;
+	width: 500px;
+	clear: both;
+}
+.product_purchase {
+	float: left;
+	height: 500px;
+	width: 500px;
+	margin-left: 100px;
+	clear:right;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+.product_name {
+	height: 78px;
+	width: 500px;
+	text-align: left;
+}
+.product_price {
+	height: 95px;
+	width: 500px;
+}
+.product_purchase form p#p1 {
+	text-align: right;
+}
+#detail {
+	width: 1500px;
+	height: auto;
+	margin-left: 700px;
+}
+.product_info {
+	width: 1000px;
+	height: auto;
+	margin-top: 500px;
+	clear: both;
+}
+.anchor_table tr td{
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #dddddd;
+	border-left-color: #dddddd;
+	text-align: center;
+}
+.anchor_block{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+}
+#purchase_guide {
+	clear: both;
+	width: 1000px;
+	margin-top: 200px;
+}
+#guide_text {
+	margin: 50px;
+	float: left;
+	width: 900px;
+}
+#purchase_review {
+	clear: both;
+	width: 1000px;
+	margin-top: 200px;
+}
+#product_question {
+	clear: both;
+	width: 1000px;
+	margin-top: 200px;
+}
+#question_form tr th{
+	height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
+#question_form tr td{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+}
+#review_form tr th{
+	text-align: left;
+	font-weight: normal;
+}
+#review_form tr td{
+	text-align: right;
+}
+.bt_wrap{
+	float: right;
+	margin-top: 20px;
+}
+.empty_review{
+	height: 200px;
+	width: auto;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.numbering {
+	clear: both;
+	float: left;
+	height: 60px;
+	width: 400px;
+	margin-top: 50px;
+}
+
+/*여기서부턴 리뷰*/
+.search{
+	float: left;
+	width: 1200px;
+	border: 5px solid #666;
+}
+.search tr td{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+	text-align: center;
+}
+
+#review_menu{
+	float: left;
+	margin-left: 300px;
+	height: auto;
+}
+.review_list{
+	width: 1600px;
+	height: auto;
+	margin-left: 150px;
+}
+
+.pic {
+	width : 380px;
+	height : 600px;
+	float : left;
+	margin-top : 100px;
+	margin-left : 20px;
+	border: 1px solid #999;
+}
+.subpic{
+	width : 380px;
+	height : 380px;
+	float : left;
+}
+.subpic1{
+	width : 380px;
+	height : 150px;
+	float : left;
+}
+.subpic2{
+	width : 380px;
+	height : 70px;
+	float : left;
+}
+.board_view {
+	color: #000;
+	height: auto;
+	margin-left: 480px;
+	text-align: left;
+}
+.board_view table tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	height: 55px;
+}
+.bt_wrap #write_review{
+	width:100px;
+	height: 40px;
+	background-color: #000;
+	color: #FFF;
+}
+.bt_wrap #all_review{
+	width:100px;
+	height: 40px;
+	background-color: #FFF;
+}
+.bt_wrap #write_q{
+	width:100px;
+	height: 40px;
+	background-color: #000;
+	color: #FFF;
+}
+.bt_wrap #all_q{
+	width:100px;
+	height: 40px;
+	background-color: #FFF;
+}
+.bt_wrap #write_review:hover{
+	background-color: #555;
+}
+.bt_wrap #all_review:hover{
+	background-color: #CCC;
+}
+.bt_wrap #write_q:hover{
+	background-color: #555;
+}
+.bt_wrap #all_q:hover{
+	background-color: #CCC;
+}
+.product_purchase #buy_now{
+	width: 240px;
+	height: 75px;
+	background-color: #000;
+	color: #FFF;
+}
+.product_purchase #put_cart{
+	width: 240px;
+	height: 75px;
+	background-color: #FFF;
+}
+.product_purchase #put_list{
+	width: 160px;
+	height: 50px;
+	background-color: #FFF;
+}
+.product_purchase #buy_now:hover{
+	background-color: #FFF;
+	color: #000;
+	border: 3px solid #000;
+}
+.product_purchase #put_cart:hover{
+	border: 3px solid #000;
+}
+.product_purchase #put_list:hover{
+	border: 3px solid #000;
+}
+.recentProd{
+	float: right;
+	width: 200px;
+	height: 800px;
+	border: 2px solid #6C9;
+	margin-right: 100px;
+	margin-top: -7200px;	
+	position: sticky;
+	top: 150px;
+}

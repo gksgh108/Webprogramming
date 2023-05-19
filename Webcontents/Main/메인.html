@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>무제 문서</title>
+
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+//롤오버 이미지 관련 function
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/facebook_01-02.jpg','images/instagram_02-05.jpg','images/youtube_03.jpg')">
+<div class="wrap">
+  <div class="page_header">
+    <div class="user_menu">
+    <a href="#">LOGIN</a>&nbsp;
+	<a href="#">JOIN US</a>&nbsp; 
+    <a href="#">CART</a>&nbsp; 
+    <a href="#">ORDER</a> | 
+    <strong><a href="#">MY PAGE</a></strong>
+    </div>
+    
+    <div class="page_menu">
+    <a href="#">공지사항</a>&nbsp;
+    <a href="#">이벤트</a>&nbsp;
+    <a href="#">상품문의</a>&nbsp;
+    <a href="#">상품후기</a>
+    </div>
+  </div>
+  <div class="logo_header">
+  <div class="logo">left마진 로고 반만큼 줄이기</div>
+    <div id="sns">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook_01-02.jpg',1)"><img src="images/youtube_01.jpg" width="40" height="40" id="facebook"></a>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('instagram','','images/instagram_02-05.jpg',1)"><img src="images/youtube_02.jpg" width="42" height="40" id="instagram"></a>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('youtube','','images/youtube_03.jpg',1)"><img src="images/instagram_02-03.jpg" width="39" height="40" id="youtube"></a></div>
+    
+  </div>
+  <div class="menu_header">
+    <div id="menu">
+					<ul>
+						<li><a href="newpage.jsp?">NEW</a></li>
+						<li><a href="outer.jsp?menu=아우터">아우터</a>
+							<ul>
+								<li><a href="outer.jsp?menu=아우터&menu_detail=코트">코트</a></li>
+								<li><a href="outer.jsp?menu=아우터&menu_detail=자켓/점퍼">자켓/점퍼</a></li>
+								<li><a href="outer.jsp?menu=아우터&menu_detail=가디건">가디건</a></li>
+							</ul></li>
+						<li><a href="outer.jsp?menu=상의">상의</a>
+							<ul>
+								<li><a href="outer.jsp?menu=상의&menu_detail=니트">니트</a></li>
+								<li><a href="outer.jsp?menu=상의&menu_detail=긴팔티">긴팔티</a></li>
+								<li><a href="outer.jsp?menu=상의&menu_detail=맨투맨/후드티">맨투맨/후드티</a></li>
+							</ul></li>
+						<li><a href="outer.jsp?menu=셔츠">셔츠</a>
+							<ul>
+								<li><a href="outer.jsp?menu=셔츠&menu_detail=무지">무지</a></li>
+								<li><a href="outer.jsp?menu=셔츠&menu_detail=체크">체크</a></li>
+								<li><a href="outer.jsp?menu=셔츠&menu_detail=스트라이프/패턴">스트라이프/패턴</a></li>
+							</ul></li>
+						<li><a href="outer.jsp?menu=수트">수트</a>
+							<ul>
+								<li><a href="outer.jsp?menu=수트&menu_detail=SUIT">SUIT</a></li>
+							</ul></li>
+						<li><a href="outer.jsp?menu=하의">하의</a>
+							<ul>
+								<li><a href="outer.jsp?menu=하의&menu_detail=슬랙스">슬랙스</a></li>
+								<li><a href="outer.jsp?menu=하의&menu_detail=데님">데님</a></li>
+								<li><a href="outer.jsp?menu=하의&menu_detail=면팬츠">면팬츠</a></li>
+							</ul></li>
+						<li><a href="outer.jsp?menu=트레이닝복">트레이닝복</a></li>
+					</ul>
+				</div>
+  </div>
+  <div class="main">메인 삽인 부분</div>
+  <div class="empty"></div>
+  <div class="company_menu">
+  <div class="company">
+    <a href="#">회사소개 </a> &nbsp; | &nbsp;
+    <a href="#">이용약관 </a>&nbsp; | &nbsp;
+    <a href="#">개인정보처리방침 </a>&nbsp; | &nbsp;
+    <a href="#">상품문의 </a>&nbsp; | &nbsp;
+    <a href="#">상품후기</a>
+  </div>
+    <div class="sns"> 
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook2','','images/facebook_01-02.jpg',1)"><img src="images/youtube_01.jpg" width="40" height="40" id="facebook2"></a>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('instagram2','','images/instagram_02-05.jpg',1)"><img src="images/youtube_02.jpg" width="42" height="40" id="instagram2"></a>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('youtube2','','images/youtube_03.jpg',1)"><img src="images/instagram_02-03.jpg" width="39" height="40" id="youtube2"></a>
+      </div>
+  </div>
+  <div class="info">
+    <div class="footer_ban2">
+	  <h2>CUSTOMER CENTER</h2>
+            <h1>
+            ☎ 01091589646 
+            </h1>
+            <p>평일 오전 10:00 ~ 오후 6:00</p>
+            <p> 점심시간 오후 12:00 ~ 오후 1:00</p>
+            <p> 토 / 일 / 공휴일 휴무 </p>
+	</div>
+			<div class="footer_ban">
+			  <h2>ACCOUNT INFO</h2>
+			  <p> 하나 291-910344-99807			</p>
+			  <p>예금주: 다를(김한호) </p>
+			</div>
+			<div class="footer_ban">
+			  <h2>FAVORITE MENU</h2>
+			  <p> <a href="#">로그인</a> / <a href="#">회원가입</a></p>
+			  <p><a href="#">관심상품</a></p>
+			  <p><a href="#">장바구니</a></p>
+			  <p><a href="#">주문조회</a></p>
+			  <p><a href="#">마이페이지</a></p>
+			</div>
+			<div class="footer_ban">
+			  <h2>RETURN / EXCHANGE</h2>
+			  <p> 시흥시 산기대학로 237 공학관 D동 401호</p>
+			  <p>자세한 교환·반품절차 안내는 문의란 및 <a href="#">공지사항</a>을 참고해주세요 </p>
+			</div>
+  </div>
+  <div class="info2">
+    <div class="company_info">
+      <p>상호 : 다를 대표 : 김한호, 오진수, 전형서 사업자 등록번호 : 413-19-01037 [사업자정보확인]</p>
+      <p>주소 : 15073 경기도 시흥시 정왕동 산기대학로 공학관 D동 4층 401호 대표전화 : 01091589646</p>
+      <p>통신판매업 신고 : 2021-고양덕양구-1707 개인정보관리책임자 : 김한호 (gksgh108@tukorea.ac.kr)</p>
+      <p>&nbsp;</p>
+      <p>COPYRIGHT © <strong>d'Arles</strong> ALL RIGHTS RESERVED. HOSTING CAFE24DESIGNED By DFLOOR</p>
+    </div>
+    <div class="purchase_info">
+    <a href="https://www.inicis.com/"><img src="images/아랫부분_08_01.jpg" width="390" height="138"></a>
+    <a href="#"><img src="images/아랫부분_08_02.jpg" width="142" height="96"></a>
+    <a href="https://www.ftc.go.kr/"><img src="images/아랫부분_08_03.jpg" width="130" height="96"></a><a href="#"><img src="images/아랫부분_08_04.jpg" width="113" height="96"></a></div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
